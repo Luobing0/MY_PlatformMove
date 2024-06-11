@@ -1,0 +1,4 @@
+repository "MY_PlatformMove@wechat_os_qy04alfm8hz6s9kiqh7aizdwg@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
