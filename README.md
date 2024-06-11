@@ -27,6 +27,7 @@
 
 
 # 视频演示
+其他功能请看视频，实现了充能大跳、攀爬、超级跳、蹭墙跳这些功能。
 
 https://github.com/Luobing0/MY_PlatformMove/assets/50789197/d3938321-8b47-4541-9ef9-cf46b7d71dbb
 
