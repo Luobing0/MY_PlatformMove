@@ -2,7 +2,8 @@
  仿蔚蓝Demo
 ## 参考文章：
 原作者解析相关功能： <https://maddythorson.medium.com/celeste-forgiveness-31e4a40399f1>\
-蔚蓝源码：<https://github.com/NoelFB/Celeste?tab=readme-ov-file>
+蔚蓝源码：<https://github.com/NoelFB/Celeste?tab=readme-ov-file>\
+原作者物理实现：<https://maddythorson.medium.com/celeste-and-towerfall-physics-d24bd2ae0fc5>
  ## 原版：土狼时间:离开壁架后，你仍然可以短暂跳跃。
 ![1](https://github.com/Luobing0/MY_PlatformMove/assets/50789197/608e9812-c252-43f5-a563-fcb707a6c907)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
