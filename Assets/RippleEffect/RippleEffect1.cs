@@ -63,7 +63,7 @@ public class RippleEffect1 : MonoBehaviour
         }
     }
 
-    Droplet[] droplets;
+    Droplet[] droplets = new Droplet[3];
     Texture2D gradTexture;
     Material material;
     float timer;
@@ -82,9 +82,7 @@ public class RippleEffect1 : MonoBehaviour
         material.SetVector("_Params2", new Vector4(1, 1 / c.aspect, refractionStrength, reflectionStrength));
     }
 
-    void Awake()
-    {
-        droplets = new Droplet[3];
+    void Awake() {
         droplets[0] = new Droplet();
         droplets[1] = new Droplet();
         droplets[2] = new Droplet();
@@ -119,7 +117,8 @@ public class RippleEffect1 : MonoBehaviour
     }
 
     private void OnValidate(){
-        foreach (var d in droplets) d.Update();
+        foreach (var d in droplets) d?.Update();
+
 
         UpdateShaderParameters();
     }

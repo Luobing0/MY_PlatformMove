@@ -73,9 +73,6 @@ public static class GameInput{
     //根据当前朝向,决定移动方向.
     public static Vector2 GetAimVector(Facings defaultFacing = Facings.Right){
         Vector2 value = GameInput.Aim.Value;
-        //TODO 考虑辅助模式
-
-        //TODO 考虑摇杆
         if (value == Vector2.zero){
             GameInput.LastAim = Vector2.right * ((int)defaultFacing);
         }
